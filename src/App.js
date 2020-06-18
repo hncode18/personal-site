@@ -4,16 +4,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1>Hoang Nguyen</h1>
-        <div>
-            <a href="https://github.com/hncode18">
-                <i class="fa fa-github-square" aria-hidden="true"></i>
+      <h1 id="name">Hoang Nguyen</h1>
+        <div className="link-div">
+            <a className="bio-link" href="https://github.com/hncode18">
+                <i className="fa fa-github-square fa-2x" aria-hidden="true"></i>
             </a>
-        </div>
-
-        <div>
-            <a href="https://www.linkedin.com/in/hoang-nguyen21/">
-                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            <a className="bio-link" href="https://www.linkedin.com/in/hoang-nguyen21/">
+                <i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
             </a>
         </div>
     </div>
