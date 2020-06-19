@@ -1,17 +1,34 @@
 .App {
-  text-align: center;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#name-div {
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 #name {
     font-size: 50px;
 }
 
-.link-div .bio-link {
-    margin: 5px;
-    text-decoration: none;
-    color: black;
+.link-div {
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
-.link-div .bio-link:hover {
-    color: turquoise;
+.link-div .bio-link {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 70%;
+    text-decoration: none;
+    color: black;
 }

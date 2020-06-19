@@ -4,7 +4,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1 id="name">Hoang Nguyen</h1>
+        <div id="name-div">
+            <i class="fa fa-code fa-5x" id="logo" aria-hidden="true"></i>
+            <h1 id="name">Hoang Nguyen</h1>
+            <h3 id="title">Full Stack Developer</h3>
+        </div>
+        
         <div className="link-div">
             <a className="bio-link" href="https://github.com/hncode18">
                 <i className="fa fa-github-square fa-2x" aria-hidden="true"></i>
