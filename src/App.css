@@ -11,10 +11,15 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #name {
     font-size: 50px;
+}
+
+#title {
+    font-size: 20px;
 }
 
 #bio-container {
@@ -29,10 +34,17 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
 }
 
 .education-div p {
     text-align: left;
+    margin-left: 5px;
+}
+
+#degree {
+    margin-bottom: 5px;
 }
 
 .link-container {
@@ -43,23 +55,34 @@
     justify-content: flex-end;
 }
 
-.link-div {
+.link-icon-div {
     display: flex;
     justify-content: flex-end;
+    margin-bottom: 5px;
+}
+
+.link-icon-div div {
+    display: flex;
+    flex-direction: column;
+}
+
+.link-div {
+    margin-left: 5px;
 }
 
 .bio-link {
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: 12px;
     margin-right: 15px;
-    text-decoration: underline;
+    text-decoration: none;
     color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
 }
 
-#linkedin .bio-link {
-    margin-left: 1%;
+.bio-link:hover {
+    text-decoration: underline;
 }
 
-#github .bio-link {
-    margin-left: 6.85%;
+.link-div a {
+    text-align: right;
 }
