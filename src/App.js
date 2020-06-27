@@ -70,8 +70,8 @@ function App() {
                         <i className="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
                     </div>
                     <div className="link-div">
-                        <a className="bio-link" href="https://github.com/hncode18">hncode18</a>                    
-                        <a className="bio-link" href="https://www.linkedin.com/in/hoang-nguyen21/">hoang-nguyen21</a>
+                        <a className="bio-link" id="github" href="https://github.com/hncode18">hncode18</a>                    
+                        <a className="bio-link" id="linkedin" href="https://www.linkedin.com/in/hoang-nguyen21/">hoang-nguyen21</a>
                     </div>
                 </div>
             </div>

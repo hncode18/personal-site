@@ -86,3 +86,33 @@
 .link-div a {
     text-align: right;
 }
+
+@media (max-width: 330px) {
+    .link-container {
+        margin-left: 10px;
+    }
+
+    .bio-link {
+        font-size: 15px;
+        width: 75px;
+        text-decoration: underline;
+    }
+
+    #github {
+        margin-top: 14px;
+    }
+    #linkedin {
+        margin-top: 0px;
+    }
+
+    .icon-div .fa-github-square {
+        margin-top: 0px;
+    }
+    .icon-div .fa-linkedin-square {
+        margin-top: 4px;
+    }
+
+    .education-div {
+        font-size: 15px;
+    }
+}
