@@ -17,7 +17,7 @@ class Title extends React.Component
 
     componentDidMount()
     {
-        this.timerId = setInterval(() => this.animate(), 60);
+        this.timerId = setInterval(() => this.animate(), 65);
     }
 
     componentWillUnmount()
