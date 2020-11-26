@@ -1,0 +1,52 @@
+.projDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    height: 100%;
+}
+
+.projDiv > div {
+    width: 40%;
+}
+
+#page-title {
+    font-size: 40px;
+    font-weight: 900;
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+.page-card {
+    border: 2px solid black;
+    border-radius: 12px;
+    font-size: 18px;
+}
+
+.page-card > * {
+    margin-left: 5px;
+}
+
+.card-title {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.card-links > a {
+    color: black;
+    margin-left: 5px;
+    text-decoration: none;
+}
+.card-links > a:hover {
+    text-decoration: underline;
+}
+
+.card-links > i {
+    font-size: 20px;
+}
+
+.tools-list {
+    margin-bottom: 5px;
+}
+
