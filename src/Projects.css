@@ -33,6 +33,11 @@
     margin-top: 5px;
 }
 
+.card-links {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
 .card-links > a {
     color: black;
     margin-left: 5px;
@@ -44,9 +49,31 @@
 
 .card-links > i {
     font-size: 20px;
+    margin-bottom: 0px;
 }
 
 .tools-list {
     margin-bottom: 5px;
 }
 
+.tools-list > em {
+    font-weight: bold;
+}
+
+@media (max-width: 800px) {
+    .projDiv > div {
+        width: 80%;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .page-card {
+        font-size: 15px;
+    }
+
+    .card-links > a {
+        text-decoration: underline;
+    }
+}

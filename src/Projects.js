@@ -8,9 +8,9 @@ function ProjectCard(props)
             <h2 className="card-title">{props.title}</h2>
             <div className="card-links">
                 <i className="fa fa-github-square" aria-hidden="true"></i>
-                <a href={props.code}>Source</a>
+                <a href={props.code}>Source Code</a>
             </div>
-            <p className="tools-list">Tools: {props.tools}</p>
+            <p className="tools-list"><em>Tools:</em> {props.tools}</p>
         </div>
     )
 }
