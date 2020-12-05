@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Navbar from './Navbar';
 
 class Title extends React.Component 
 {
@@ -50,6 +51,7 @@ class Title extends React.Component
 function App() {
   return (
     <div className="App">
+        <Navbar />
         <div id="name-div">
             <i class="fa fa-code fa-5x" id="logo" aria-hidden="true"></i>
             <h1 id="name">{"Hoang Nguyen"}</h1>

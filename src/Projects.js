@@ -1,5 +1,6 @@
 import React from 'react';
-import './Projects.css'
+import Navbar from './Navbar';
+import './Projects.css';
 
 function ProjectCard(props)
 {
@@ -19,6 +20,7 @@ function Projects()
 {
     return (
         <div className="projDiv">
+            <Navbar />
             <div className="page-title-div">
                 <h1 id="page-title">Projects</h1>
             </div>
