@@ -8,8 +8,20 @@ function ProjectCard(props)
         <div className="page-card">
             <h2 className="card-title">{props.title}</h2>
             <div className="card-links">
-                <i className="fa fa-github-square" aria-hidden="true"></i>
-                <a href={props.code}>Source Code</a>
+                {
+                    props.code != null &&
+                    <div>
+                        <i className="fa fa-github-square" aria-hidden="true"></i>
+                        <a href={props.code}>Source Code</a>
+                    </div>
+                }
+                {
+                    props.production != null &&
+                    <div>
+                        <i className="fa fa-link" aria-hidden="true"></i>
+                        <a href={props.production}>Live Version</a>
+                    </div>
+                }
             </div>
             <p className="tools-list"><em>Tools:</em> {props.tools}</p>
         </div>

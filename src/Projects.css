@@ -42,16 +42,16 @@
     margin-bottom: 5px;
 }
 
-.card-links > a {
+.card-links a {
     color: black;
     margin-left: 5px;
     text-decoration: none;
 }
-.card-links > a:hover {
+.card-links a:hover {
     text-decoration: underline;
 }
 
-.card-links > i {
+.card-links i {
     font-size: 20px;
     margin-bottom: 0px;
 }
@@ -77,7 +77,7 @@
         font-size: 15px;
     }
 
-    .card-links > a {
+    .card-links a {
         text-decoration: underline;
     }
 }
