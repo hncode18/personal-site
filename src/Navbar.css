@@ -29,6 +29,10 @@
     font-size: 30px;
 }
 
+#right-nav a {
+    margin-left: 15px;
+}
+
 @media (max-width: 800px) {
     #left-nav {
         font-size: 30px;
