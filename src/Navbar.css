@@ -1,0 +1,44 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 98vw;
+    height: 6vh;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#navbar a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navbar a:hover {
+    color: gray;
+}
+
+#left-nav {
+    font-size: 35px;
+}
+
+#right-nav {
+    font-size: 30px;
+}
+
+#right-nav a {
+    margin-left: 15px;
+}
+
+@media (max-width: 800px) {
+    #left-nav {
+        font-size: 30px;
+    }
+    
+    #right-nav {
+        font-size: 25px;
+    }
+}
