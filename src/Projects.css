@@ -37,6 +37,16 @@
     margin-top: 5px;
 }
 
+.card-title a {
+    color: black;
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    text-decoration: underline;
+}
+
 .card-links {
     margin-top: 5px;
     margin-bottom: 5px;
@@ -78,6 +88,10 @@
     }
 
     .card-links a {
+        text-decoration: underline;
+    }
+
+    .card-title a {
         text-decoration: underline;
     }
 }
