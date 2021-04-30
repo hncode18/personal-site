@@ -6,7 +6,9 @@ function ProjectCard(props)
 {
     return (
         <div className="page-card">
-            <h2 className="card-title">{props.title}</h2>
+            <h2 className="card-title">
+                {props.desc ? <a href={props.desc}>{props.title}</a> : props.title}
+            </h2>
             <div className="card-links">
                 {
                     props.code != null &&
@@ -37,6 +39,7 @@ function Projects()
                 <h1 id="page-title">Projects</h1>
             </div>
             <ProjectCard title="OSU CS Applied Plan Portal" tools="React, Emotion.sh, Node.JS, MySQL"
+                desc="/project/osu"
                 code="https://github.com/OSU-Applied-Plan-Portal-2020-2021/cs-applied-plan-portal"/>
         </div>
     );
