@@ -26,6 +26,7 @@
     border: 2px solid black;
     border-radius: 12px;
     font-size: 18px;
+    margin: 10px;
 }
 
 .page-card > * {
